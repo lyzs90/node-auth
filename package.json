@@ -6,13 +6,19 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
     "express": "~4.14.0",
+    "express-mysql-session": "^1.2.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.2.1",
     "hbs": "~4.0.1",
     "morgan": "~1.7.0",
     "mysql": "^2.13.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
@@ -22,12 +28,14 @@
     "browser-sync": "^2.18.8",
     "browser-sync-webpack-plugin": "^1.1.4",
     "chai": "^3.5.0",
+    "connect-sqlite3": "^0.9.10",
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "mocha": "^3.4.1",
-    "node-sass": "^3.13.0",
+    "node-sass": "^4.5.3",
     "postcss-loader": "^1.1.1",
     "sass-loader": "^4.0.2",
+    "sqlite3": "^3.1.13",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.0",
     "webpack-dotenv-plugin": "^2.0.0"
