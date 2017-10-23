@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 
   connection.all("SELECT 1 AS success", (err, rows) => {
     if (err) throw err;
-    console.log(`Connected to sqlite: ${rows[0].success}`);
+    console.log(`Testing connection to sqlite: Success!`);
   });
 }
 

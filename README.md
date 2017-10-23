@@ -1,7 +1,7 @@
 # node-auth
 
-Just trying out a several [Passport.js](http://www.passportjs.org/) authentication strategies.
-Based on @christopher4lis [course](https://github.com/christopher4lis/express-cc).
+Trying out a several [Passport.js](http://www.passportjs.org/) authentication strategies.
+Forked from @christopher4lis [course](https://github.com/christopher4lis/express-cc).
 
 ### Strategies
 - Cookie/Session-based
@@ -10,5 +10,9 @@ Based on @christopher4lis [course](https://github.com/christopher4lis/express-cc
 
 ### Getting Started
 - Install dependencies `yarn`
+- Prepare SQLite database `npm run prepare`
 - Start backend `npm start` or `nodemon`
 - Start frontend `webpack`
+
+### Useful Tools
+- DB Browser for SQLite (http://sqlitebrowser.org/)
